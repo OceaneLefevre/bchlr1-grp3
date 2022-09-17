@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0 ;
+    box-sizing: border-box;
+}
+
+
+
+.header {
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.logo {
+    width: 300px;
+    height: 150px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.logoo {
+    width: 300px;
+}
+
+.menu {
+    width: 70%;
+    height: 150px;
+    font-size: 23px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content:space-around;
+    font-family: 'Alata', sans-serif;
+}
+
+.acheter {
+    width: 150px;
+    height: 50px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    background-color: rgb(77, 77, 213);
+    color: white;
+    font-size: 20px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius:20px;
+    border-bottom-right-radius: 20px;
+    font-family: 'Alata', sans-serif;
+}
+
+.bann {
+    width: 100%;
+    }
+
+.fetes {
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 50%;
+    gap: 50px;
+   
+}
+
+.imagefete {
+    border: 2px solid red;
+    width: 500px;
+    height: 500px;
+    display: flex;
+
+}
+
+.fetesss {
+    width: 500px;
+    height: 500px;
+    display: flex;
+    object-fit: cover;
+    object-position: center;
+}
+
+.textefetes {
+    border: 2px solid red;
+    width: 50%;
+    display: flex;
+    font-family: 'alata',sans-serif;
+    font-size: 25px;
+}
