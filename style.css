@@ -1,0 +1,291 @@
+*{
+    margin: 0;
+    padding: 0 ;
+    box-sizing: border-box;
+}
+
+
+.header {
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: white;
+    width: 100%;
+    position: fixed;
+}
+
+.logo {
+    width: 300px;
+    height: 150px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.logoo {
+    width: 300px;
+}
+
+.menu {
+    width: 70%;
+    height: 150px;
+    font-size: 19px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content:space-around;
+    font-family: 'Alata', sans-serif;
+}
+
+.acheter {
+    width: 100px;
+    height: 45px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    background-color: rgba(77, 77, 213, 0.729);
+    color: white;
+    font-size: 15px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius:20px;
+    border-bottom-right-radius: 20px;
+    font-family: 'Alata', sans-serif;
+}
+
+.acheter:hover {
+    background-color: white;
+    border: 3px solid rgba(77, 77, 213, 0.729);
+    color: rgba(77, 77, 213, 0.729);
+}
+
+.banniere img {
+    width: 100%;
+    margin-top: 150px;
+    }
+
+
+.pourquoi {
+    border: 2px solid black;
+    width: 40%;
+    font-family: 'Cabin', sans-serif;
+    font-size: 40px;
+    padding: 25px;
+    text-align: center;
+    font-weight: bolder;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    color: black;
+}
+
+.fetes {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    font-family: 'Alata', sans-serif;
+    padding: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.fetes img {
+    width: 30%;
+}
+
+.fetes div {
+    font-size: 20px;
+    width: 40%;
+}
+
+.fetes div h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+
+hr {
+    width: 73%;
+}
+
+
+.sunset {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    font-family: 'Alata', sans-serif;
+    padding: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.sunset img {
+    width: 30%;
+}
+
+.sunset div {
+    font-size: 20px;
+    width: 40%;
+    text-align: right;
+}
+
+.sunset div h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+
+.humeur {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    font-family: 'Alata', sans-serif;
+    padding: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.humeur img {
+    width: 30%;
+}
+
+.humeur div {
+    font-size: 20px;
+    width: 40%;
+}
+
+.humeur div h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+
+.essayé {
+    width: 50%;
+    font-family: 'Cabin', sans-serif;
+    font-size: 55px;
+    padding: 25px;
+    text-align: center;
+    font-weight: bolder;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 25px;
+    color: black;
+}
+
+.temoignages {
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    display: flex;
+    
+}
+
+.first {
+    border: 6px solid black;
+    padding :5px;
+    width: 470px;
+}
+
+.second {
+    border: 6px solid black;
+    padding :5px;
+    width: 470px;
+}
+
+.third {
+    border: 6px solid black;
+    padding :5px;
+    width: 470px;
+}
+
+
+.pqpasvous {
+    width: 50%;
+    font-family: 'Cabin', sans-serif;
+    font-size: 55px;
+    padding: 25px;
+    text-align: center;
+    font-weight: bolder;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    color: black;
+}
+
+.acheter2 {
+    width: 200px;
+    height: 60px;
+    padding: 5px;
+    background-color: rgba(77, 77, 213, 0.729);
+    color: white;
+    font-size: 25px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius:20px;
+    border-bottom-right-radius: 20px;
+    font-family: 'Alata', sans-serif;
+    margin-top: 30px;
+    margin-bottom: 5px;
+}
+
+.acheter2:hover {
+    background-color: white;
+    border: 3px solid rgba(77, 77, 213, 0.729);
+    color: rgba(77, 77, 213, 0.729);
+}
+
+.apartirde {
+    width: 50%;
+    font-family: 'Cabin', sans-serif;
+    font-size: 20px;
+    padding: 25px;
+    text-align: center;
+    font-weight: bolder;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+    color: black;
+    margin-bottom: 50px;
+}
+
+.footer {
+    background-color: rgba(0, 0, 0, 0.184);
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Alata', sans-serif;
+    gap: 150px;
+   
+}
+
+.footer img {
+    height: 100px;
+    width: 200px;
+    justify-content: flex-start;
+}
+
+.footer article {
+    font-size: 20px;
+    text-align: center;
+}
+
+.copyright {
+    font-size: 13px ;
+}
